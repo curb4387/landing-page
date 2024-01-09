@@ -1,15 +1,16 @@
 body {
     font-family: "Roboto", "sans-serif";
-    margin: 0;
+    margin: auto;
 }
 
 /* start of header */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
     padding: 20px 150px;
+    gap: 400px;
 }
 
 .logo {
@@ -35,9 +36,10 @@ a {
 /* start of hero content */
 .content1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1F2937;
     padding: 100px 150px;
+    gap: 50px;
 }
 
 .hero-main {
