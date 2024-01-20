@@ -142,7 +142,7 @@ a {
 /* start of action banner */
 .content4 {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* keeps action box centered in the page */
 }
 
 .container4 {
@@ -165,7 +165,7 @@ a {
     align-items: flex-end;
     color: #E5E7EB;
     font-size: 18px;
-    margin-top: -20px;
+    margin-top: -20px; /* this rids of the spacing above the sentence */
 }
 
 .action-button {
@@ -180,3 +180,12 @@ a {
 }
 
 /* start of footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 50px;
+}
